@@ -23,41 +23,34 @@ To see the deployed app [click here](#).
 
 ## Description
 
-This is a text-editor app 
+This text-editor app allows a user to type code into the editor and have their data saved if they leave the page. A user can also close the page completely and once they come back, their data will still be there.
 
 
 ## Installation
 
-To run this API locally:
-
-1. Clone the repository to your local machine.
-
-2. Make sure to install the packages from the package.json.
-
-3. Open the development platform of your choice and test the routes.
+Click the 'install' button at the top of the application to install.
 
 
 ## Usage
 
-Open the development platform of your choice and test the routes. Seeds are not provided in this code so you will need to create your own.
+Type in whatever you would like into the text editor. Your data will be cached and accessible even offline.
 
 ## Screenshots
 
-![Screenshot](./assets/images/social-screenshot-01.png)
-![Screenshot](./assets/images/social-screenshot-02.png)
+![Screenshot](./Assets/01-idb-storage.png)
+![Screenshot](./Assets/02-manifest.png)
+![Screenshot](./Assets/03-service-worker.png)
 
 ## Technologies Used
 
 * Node.js
-* Express.js
-* MongoDB
-* Mongoose
-
-
+* Webpack
+* Babel
+* IndexedDb
 
 ## Credits
 
-mod7ex on Stack Overflow for the date timestamp code snippet, AskBSC Learning Assistants, and my classmates!
+Thank you to my classmates, instructors, and TAs!
 
 ## License
 
